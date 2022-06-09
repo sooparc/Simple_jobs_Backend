@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["https://thriving-gnome-8f51ab.netlify.app/"],
+    origin: ["https://thriving-gnome-8f51ab.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     optionSuccessStatus: 200,
