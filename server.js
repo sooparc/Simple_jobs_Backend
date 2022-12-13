@@ -74,13 +74,6 @@ app.post("/payment", cors(), async (req, res) => {
   }
 });
 
-// const db = mysql.createConnection({
-//   user: "bbf33f876880c8",
-//   host: "us-cdbr-east-05.cleardb.net",
-//   password: "441049df",
-//   database: "heroku_298f9947cf6ee96",
-// });
-
 var db = mysql.createPool({
   connectionLimit: 10,
   host: "us-cdbr-east-05.cleardb.net",
